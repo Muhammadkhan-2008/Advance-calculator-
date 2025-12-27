@@ -1,5 +1,2 @@
-git commit --amend -m "Updated message for the previous commit"
-
-git rebase -i HEAD~4
-# Replace '4' with the number of commits you need to modify historically.
-# In the editor, change 'pick' to 'reword' for the desired commits.
+git rm "commit chaneg"
+git commit -m "Delete file: commit chaneg from advance calculator repository."
